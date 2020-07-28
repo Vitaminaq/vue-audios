@@ -1,12 +1,24 @@
 {
   "name": "vue-audios",
   "version": "0.1.0",
-  "private": true,
+  "author": "Vitaminaq",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "audio",
+    "manage"
+  ],
+  "private": false,
+  "main": "dist/vue-audios.common.js",
+  "module": "src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --target lib src/index.ts"
   },
+  "homepage": "https://github.com/Vitaminaq/vue-audios",
+  "bugs": "https://github.com/Vitaminaq/vue-audios/issues",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
@@ -27,6 +39,8 @@
     "less-loader": "^5.0.0",
     "prettier": "^1.19.1",
     "typescript": "~3.9.3",
+    "vue-class-component": "^7.2.5",
+    "vue-property-decorator": "^9.0.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
