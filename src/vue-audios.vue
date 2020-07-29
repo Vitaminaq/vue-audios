@@ -145,9 +145,8 @@ export default class SourceVoice extends Vue {
 	width: 278px;
 	height: 40px;
 	background: #fff;
-	// prettier-ignore
-	border: 1PX solid #12dba5;
-	border-radius: 40px;
+	background-color: #f7f7f7;
+	border-radius: 10px;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -166,7 +165,7 @@ export default class SourceVoice extends Vue {
 		height: 28px;
 		background: #12dba5;
 		border-radius: 100px;
-		margin: 0 8px 0 6px;
+		margin: 0 8px 0 10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -216,7 +215,7 @@ export default class SourceVoice extends Vue {
 		}
 	}
 	.duration {
-		margin-right: 8px;
+		margin-right: 10px;
 	}
 }
 </style>
