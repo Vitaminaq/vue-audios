@@ -37,7 +37,7 @@ import { VueAudios } from 'vue-audios';
 
 [demo地址](https://www.vitaminaq.cn/example/vue-audios)
 
-![audio](https://raw.githubusercontent.com/Vitaminaq/vue-pupop-toast/master/picture/vue-audios.gif)
+![audio](https://raw.githubusercontent.com/Vitaminaq/vue-audios/master/picture/vue-audios.gif)
 
 #### tips
 修改样式方式：fork自行修改，git复制源码，或者查看dom上的类名，进行覆盖。
