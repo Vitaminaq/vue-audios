@@ -35,7 +35,7 @@ import 'vue-audios/dist/vue-audios.css';
 import { VueAudios } from 'vue-audios';
 ```
 
-[demo地址](https://www.vitaminaq.cn/example/vue-audios)
+[demo地址](https://xpf001-8gaixw4t74f34ccb-1305168365.tcloudbaseapp.com/)
 
 ![audio](https://raw.githubusercontent.com/Vitaminaq/vue-audios/master/picture/vue-audios.gif)
 
